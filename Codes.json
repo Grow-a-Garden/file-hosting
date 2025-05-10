@@ -1,59 +1,79 @@
 {
-  "TEST_CODE": {
-    "Rewards": [
-      {
-        "Data": {
-          "Currency": "Sheckles",
-          "Amount": 1000
+    "TEST_CODE": {
+      "Rewards": [
+        {
+          "Data": {
+            "Currency": "Sheckles",
+            "Amount": 1000
+          },
+          "Type": "Currency"
         },
-        "Type": "Currency"
-      },
-      {
-        "Data": {
-          "Item": "Watering Can",
-          "Quantity": 1
+        {
+          "Data": {
+            "Item": "Watering Can",
+            "Quantity": 1
+          },
+          "Type": "Gear"
         },
-        "Type": "Gear"
-      },
-      {
-        "Data": {
-          "SeedpackType": "Exotic",
-          "Quantity": 1
+        {
+          "Data": {
+            "SeedpackType": "Exotic",
+            "Quantity": 1
+          },
+          "Type": "SeedPack"
         },
-        "Type": "SeedPack"
-      },
-      {
-        "Data": {
-          "Quantity": 1,
-          "SeedName": "Tomato",
-          "Variant": "Normal"
+        {
+          "Data": {
+            "Quantity": 1,
+            "SeedName": "Tomato",
+            "Variant": "Normal"
+          },
+          "Type": "Seed"
         },
-        "Type": "Seed"
-      },
-      {
-        "Data": {
-          "HatchedFrom": "Common Egg",
-          "EggName": "Common",
-          "Level": 3,
-          "BaseWeight": 1,
-          "PetName": "Panda"
+        {
+          "Data": {
+            "HatchedFrom": "Common Egg",
+            "EggName": "Common",
+            "Level": 3,
+            "BaseWeight": 1,
+            "PetName": "Panda"
+          },
+          "Type": "Pet"
         },
-        "Type": "Pet"
-      },
-      {
-        "Data": {
-          "ProductId": 3249981764
+        {
+          "Data": {
+            "ProductId": 3249981764
+          },
+          "Type": "Product"
         },
-        "Type": "Product"
-      },
-      {
-        "Data": {
-          "EggName": "Exotic Bug Egg",
-          "Quantity": 3
-        },
-        "Type": "PetEgg"
-      }
-    ],
-    "Active": false
-  }
+        {
+          "Data": {
+            "EggName": "Exotic Bug Egg",
+            "Quantity": 3
+          },
+          "Type": "PetEgg"
+        }
+      ],
+      "Active": false
+    },
+    "LUNARGLOW10": {
+        "Active": true,
+        "Rewards": [
+            {
+                "Type": "PetEgg",
+                "Data": {
+                    "EggName": "Exotic Bug Egg",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Type": "SeedPack",
+                "Data": {
+                    "SeedpackType": "SeedSackBasic",
+                    "Quantity": 1
+                }
+            }
+        ]
+    }
 }
+  
